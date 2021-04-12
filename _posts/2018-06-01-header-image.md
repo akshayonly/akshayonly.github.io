@@ -7,5 +7,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: https://ccsb.scripps.edu/cellpaint/wp-content/uploads/sites/30/2020/04/CellPAINT_Coronavirus_2.jpg
+    src: https://cdn.rcsb.org/pdb101/goodsell/png-800/escherichia-coli-bacterium.png
 ---
+
+https://ccsb.scripps.edu/cellpaint/wp-content/uploads/sites/30/2020/04/CellPAINT_Coronavirus_2.jpg
