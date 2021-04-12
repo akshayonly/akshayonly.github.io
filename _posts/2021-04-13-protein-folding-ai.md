@@ -13,3 +13,12 @@ article_header:
     src: https://cdn.rcsb.org/pdb101/goodsell/png-800/escherichia-coli-bacterium.png
 ---
 What is Protein folding? Why does it matter? What AI had and will do?
+* * *
+
+<div class="card">
+  <div class="card__content">
+    <p>The plant-feeding animals are thus, considered from this point of view, not different from the flesh-eating. Both are nourished by protein, by the same organic body, which plays a principal role in their economy. It remains still to know whether the starch and other substances, which are recognized as nutrient substances, in the animal body can be changed into protein.</p>
+    <br>
+    <p>—Gerardus J. Mulder (1802-1880)</p>
+  </div>
+</div>
