@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Page - Article Header Overlay Background Image
+title: Protein folding problem in the age of AI
 article_header:
   type: overlay
   theme: dark
@@ -9,5 +9,4 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: https://cdn.rcsb.org/pdb101/goodsell/png-800/escherichia-coli-bacterium.png
 ---
-
-https://ccsb.scripps.edu/cellpaint/wp-content/uploads/sites/30/2020/04/CellPAINT_Coronavirus_2.jpg
+What is Protein folding? Why does it matter? What AI had and will do?
