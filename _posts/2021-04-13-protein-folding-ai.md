@@ -9,7 +9,7 @@ article_header:
   image:
     src: https://cdn.rcsb.org/pdb101/goodsell/png-800/escherichia-coli-bacterium.png
 ---
-What is Protein folding? Why does it matter? What AI had done and what it can bring next?
+What is Protein folding? Why does it matter? What AI had done and what it can bring next?\
 
 
 <center>
