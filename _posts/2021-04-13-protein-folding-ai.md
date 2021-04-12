@@ -1,6 +1,9 @@
 ---
 layout: article
 title: Protein folding problem in the age of AI
+articles:
+  type: brief
+  show_info: true
 mode: immersive
 header:
   theme: dark
