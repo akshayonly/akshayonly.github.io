@@ -13,8 +13,8 @@ article_header:
 <center>
 <div class="card card--flat">
   <div class="card__content">
-    <p>"The plant-feeding animals are thus, considered from this point of view, not different from the flesh-eating. Both are nourished by protein, by the same organic body, which plays a principal role in their economy. It remains still to know whether the starch and other substances, which are recognized as nutrient substances, in the animal body can be changed into protein."<br>
-    —<strong>Gerardus J. Mulder <br><i>Journal für praktische Chemie (1839)</i> </strong>
+    <p><i>"The plant-feeding animals are thus, considered from this point of view, not different from the flesh-eating. Both are nourished by protein, by the same organic body, which plays a principal role in their economy. It remains still to know whether the starch and other substances, which are recognized as nutrient substances, in the animal body can be changed into protein."</i><br>
+    —<strong>Gerardus J. Mulder (1839)</strong>
     </p>
   </div>
 </div>
