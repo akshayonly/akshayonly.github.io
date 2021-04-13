@@ -9,6 +9,9 @@ article_header:
   image:
     src: /assets/images/escherichia-coli-bacterium-crop.jpg
 ---
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Vollkorn&display=swap');
+</style>
 
 <center>
 <div class="card card--flat">
