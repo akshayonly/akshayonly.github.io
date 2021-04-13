@@ -4,7 +4,7 @@ title: Protein folding problem in the age of AI
 article_header:
   type: cover
   image:
-    src: /docs/assets/images/escherichia-coli-bacterium.jpg
+    src: /assets/images/escherichia-coli-bacterium.jpg
 ---
 What is Protein folding?&nbsp; Why does it matter?&nbsp; What AI had done and what it can bring next?&nbsp;
 
