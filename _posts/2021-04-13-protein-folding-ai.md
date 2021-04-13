@@ -12,8 +12,6 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: /assets/images/escherichia-coli-bacterium-crop.jpg
 ---
-What is Protein folding?&nbsp; Why does it matter?&nbsp; What AI had done and what it can bring next?&nbsp;
-
 <center>
 <div class="card card--flat">
   <div class="card__content">
