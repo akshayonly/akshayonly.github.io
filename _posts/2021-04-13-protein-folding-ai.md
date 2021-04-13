@@ -6,7 +6,10 @@ header:
   theme: dark
 article_header:
   type: cover
-  image:
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: /assets/images/escherichia-coli-bacterium-crop.jpg
 ---
 What is Protein folding?&nbsp; Why does it matter?&nbsp; What AI had done and what it can bring next?&nbsp;
