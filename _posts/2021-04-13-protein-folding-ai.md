@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Protein folding problem in the age of AI
+title: Protein folding problem in the age of AI (ONGOING DRAFT)
 mode: immersive
 header:
   theme: dark
@@ -9,9 +9,6 @@ article_header:
   image:
     src: /assets/images/escherichia-coli-bacterium-crop.jpg
 ---
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Vollkorn&display=swap');
-</style>
 
 <center>
 <div class="card card--flat">
