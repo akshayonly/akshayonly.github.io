@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The Protein Folding Problem and AI: Part I
+title: The Protein Folding Problem and AI Part I
 mode: immersive
 header:
   theme: dark
