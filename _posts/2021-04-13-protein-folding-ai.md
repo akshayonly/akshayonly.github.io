@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Protein folding problem in the age of AI (ONGOING DRAFT)
+title: The Protein Folding Problem and AI: Part I
 mode: immersive
 header:
   theme: dark
