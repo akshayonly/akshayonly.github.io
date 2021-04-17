@@ -24,21 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper
 {: .text-justify}
 
 <center>
-<div class="card">
-  <div class="card__image">
-    <img class="image" src="https://imgur.com/a/igjFtbU">
-  </div>
-  <div class="card__content">
-    <div class="card__header">
-      <h4>Folding and Unfolding</h4>
-    </div>
-    <p>
-    	Villin by Stefan Doerr
-    	<br>
-    	doi:10.6084/m9.figshare.12040257.v1
-    </p>
-  </div>
-</div>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/igjFtbU"  ><a href="//imgur.com/a/igjFtbU">Folding and Unfolding protein</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </center>
 
 Morbi varius nisl vel tellus condimentum, ac ullamcorper nisl pretium. Vivamus massa augue, dignissim quis varius sed, laoreet vitae ante. Nam eget bibendum velit. Aenean at rutrum diam. Integer est justo, efficitur ut lectus at, efficitur gravida ex. Cras ullamcorper tortor et mauris condimentum hendrerit. Nulla gravida odio vitae hendrerit pellentesque. Maecenas convallis consequat erat sit amet hendrerit. Integer gravida id dui sed auctor. Fusce tempus, velit in sodales congue, ante est posuere dui, ut viverra neque orci et libero. Donec convallis, metus eget efficitur sagittis, nisl ante ultricies mauris, sed hendrerit enim neque ac diam. Donec vitae est sed justo fermentum tempus ut id erat. In id porta sem.
