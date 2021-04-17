@@ -25,7 +25,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper
 
 <div class="card">
   <div class="card__image">
-    <img class="image" src="assets/gifs/foldin_animate_once.gif"/>
+    <img class="image" src="assets/gifs/foldin_animate_once.gif">
   </div>
 </div>
 
