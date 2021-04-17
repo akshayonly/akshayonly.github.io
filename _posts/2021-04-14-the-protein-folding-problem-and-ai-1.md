@@ -26,16 +26,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper
 <center>
 <div class="card">
   <div class="card__image">
-    <img class="image" src="/assets/gifs/foldin_animate_once.gif">
+    <img class="image" src="https://imgur.com/a/igjFtbU">
   </div>
   <div class="card__content">
     <div class="card__header">
       <h4>Folding and Unfolding</h4>
     </div>
     <p>
-    	Villin, an actin-binding protein by Stefan Doerr
+    	Villin by Stefan Doerr
     	<br>
-    	source: doi:10.6084/m9.figshare.12040257.v1
+    	doi:10.6084/m9.figshare.12040257.v1
     </p>
   </div>
 </div>
