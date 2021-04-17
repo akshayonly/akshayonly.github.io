@@ -32,8 +32,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper
       <h4>Protein folding & unfolding</h4>
     </div>
     <div class="item__description">
-      <p>Villin an actin-binding protein by Stefan Doerr.
-      source: doi:10.6084/m9.figshare.12040257.v1
+      <p>
+        Morbi varius nisl vel tellus condimentum, ac ullamcorper nisl pretium. Vivamus massa augue, dignissim quis varius sed, laoreet vitae ante. Nam eget bibendum velit. Aenean at rutrum diam. Integer est justo, efficitur ut lectus at, efficitur gravida ex. Cras ullamcorper tortor et mauris condimentum hendrerit. Nulla gravida odio vitae hendrerit pellentesque. Maecenas convallis consequat erat sit amet hendrerit. Integer gravida id dui sed auctor. Fusce tempus, velit in sodales congue, ante est posuere dui, ut viverra neque orci et libero. Donec convallis, metus eget efficitur sagittis, nisl ante ultricies mauris, sed hendrerit enim neque ac diam. Donec vitae est sed justo fermentum tempus ut id erat. In id porta sem.
+
+
       </p>
     </div>
   </div>
