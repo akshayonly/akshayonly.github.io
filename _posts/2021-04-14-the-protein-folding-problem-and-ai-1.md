@@ -7,7 +7,7 @@ header:
 article_header:
   type: cover
   image:
-    src: /assets/images/escherichia-coli-bacterium-crop.jpg
+    src: https://i.pinimg.com/originals/41/8d/a5/418da57d0e1011dacb7dc2843f4b372c.jpg
 ---
 
 <center>
