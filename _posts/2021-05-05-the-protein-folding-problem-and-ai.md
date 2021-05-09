@@ -7,7 +7,7 @@ header:
 article_header:
   type: cover
   image:
-    src: assets/images/protein-second-gradient.jpg
+    src: assets/images/biosites-cytoplasm-crop.jpg
 ---
 
 <center>
