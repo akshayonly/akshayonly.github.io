@@ -7,7 +7,7 @@ header:
 article_header:
   type: cover
   image:
-    src: assets/images/biosites-cytoplasm-crop.jpg
+    src: assets/images/biosites-cytoplasm-crop-1-4.jpg
 ---
 
 <center>
