@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper
 <center>
 <div class="card">
   <div class="card__image">
-    <img class="image" src="/assets/gifs/animated-folding-simple.gif">
+    <img class="image" src="https://i.imgur.com/TUQ5YIT.gif">
   </div>
 </div>
 </center>
