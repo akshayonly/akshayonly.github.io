@@ -26,9 +26,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper
 # Heading 1
 
 <center>
-<div class="card">
-  <div class="card__image">
-    <img class="image" src="https://i.imgur.com/TUQ5YIT.gif">
+<div class="item">
+  <div class="item__image">
+    <img class="image image--lg" src="https://i.imgur.com/TUQ5YIT.gif">
+  </div>
+  <div class="item__content">
+    <div class="item__header">
+      <h4>Folding</h4>
+    </div>
+    <div class="item__description">
+      <p>2D animation depicting how string of amino acids folds and take shape.</p>
+    </div>
   </div>
 </div>
 </center>
