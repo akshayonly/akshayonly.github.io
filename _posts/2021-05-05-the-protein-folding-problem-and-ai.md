@@ -35,7 +35,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper
       <h4>Folding</h4>
     </div>
     <div class="item__description">
-      <p>2D animation depicting how string of amino acids folds and take shape.</p>
+      <p>2D animation depicting how chain of amino acids folds and take shape.</p>
     </div>
   </div>
 </div>
