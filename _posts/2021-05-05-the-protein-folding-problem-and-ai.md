@@ -1,9 +1,11 @@
 ---
 layout: article
-title: # Protein Folding Problem In The Age Of AI
+title: # Protein Folding Problem In The Age Of Artificial Intelligence
 mode: immersive
 header:
   theme: dark
+aside:
+  toc: false  
 article_header:
   type: cover
   image:
