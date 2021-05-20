@@ -1,15 +1,8 @@
 ---
 layout: article
-title: # Protein Folding Problem In The Age Of Artificial Intelligence
-mode: immersive
-header:
-  theme: dark
+title: Protein Folding Problem In The Age Of Artificial Intelligence
 aside:
-  toc: false  
-article_header:
-  type: cover
-  image:
-    src: assets/images/biosites-cytoplasm-crop-1-4.jpg
+  toc: true
 ---
 
 # Introduction
