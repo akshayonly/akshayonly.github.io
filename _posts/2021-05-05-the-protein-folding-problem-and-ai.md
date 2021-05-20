@@ -10,8 +10,6 @@ article_header:
     src: /assets/images/biosites-cytoplasm-crop-1-4.jpg
 ---
 
-Have AI really solved the grand biological problem of protein folding? What contribution it can make?
-
 <center>
 <div class="card card--flat">
   <div class="card__content">
