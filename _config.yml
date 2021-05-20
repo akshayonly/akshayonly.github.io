@@ -211,7 +211,7 @@ defaults:
         toc: false
       show_edit_on_github: false
       show_subscribe: false
-      pageview: true
+      pageview: false
 
 
 ## => Plugins
