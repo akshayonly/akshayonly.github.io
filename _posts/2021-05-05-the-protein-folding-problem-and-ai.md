@@ -5,15 +5,12 @@ mode: immersive
 header:
   theme: dark
 article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: assets/images/biosites-cytoplasm-crop-1-4.jpg
+  type: cover
+  image:
+    src: /assets/images/biosites-cytoplasm-crop-1-4.jpg
 ---
 
-# Introduction
+Have AI really solved the grand biological problem of protein folding? What contribution it can make?
 
 <center>
 <div class="card card--flat">
