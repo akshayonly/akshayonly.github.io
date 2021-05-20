@@ -202,7 +202,7 @@ exclude:
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: brief
     values:
       layout: article
       sharing: true
@@ -211,7 +211,7 @@ defaults:
         toc: false
       show_edit_on_github: false
       show_subscribe: false
-      pageview: false
+      pageview: true
 
 
 ## => Plugins
