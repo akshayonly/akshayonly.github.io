@@ -1,6 +1,10 @@
 ---
 layout: article
 title: Protein Folding Problem In The Age Of Artificial Intelligence
+articles:
+  data_source: site.sample_page
+  type: brief
+  show_info: true
 ---
 
 > "If you could scale up a protein molecule to the
@@ -12,6 +16,8 @@ title: Protein Folding Problem In The Age Of Artificial Intelligence
 > pennies that would fill the Pacific Ocean."
 >
 > —Ken A. Dill, TEDxSBU (2013)
+
+---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper pellentesque ullamcorper eu, dapibus eget nisi. Fusce pretium congue mollis. Curabitur vitae eros at ipsum pharetra egestas. Ut tempor maximus ex sit amet vulputate. Suspendisse sodales ultrices ligula quis efficitur. Morbi nec neque molestie, efficitur enim sit amet, fermentum metus. In auctor elementum finibus. Pellentesque eu erat ut urna iaculis gravida et eu sapien. Cras nec mauris consectetur, pellentesque sapien a, eleifend massa. Integer pellentesque nulla non orci tincidunt consectetur. Donec ac tincidunt lectus. In nisi sem, bibendum id maximus id, blandit sit amet elit.
 
