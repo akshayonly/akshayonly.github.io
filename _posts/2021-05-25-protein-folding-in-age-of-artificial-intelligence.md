@@ -8,15 +8,13 @@ articles:
 ---
 
 <center>
-> "If you could scale up a protein molecule to the
->
-> size of a penny, the number of protein molecules you
->
-> have in your body is the same as the number of
->
-> pennies that would fill the Pacific Ocean."
->
-> —Ken A. Dill, TEDxSBU (2013)
+<p>
+  "If you could scale up a protein molecule to the size of a penny, 
+  the number of protein molecules you have in your body is the same as 
+  the number of pennies that would fill the Pacific Ocean."
+<br>
+—Ken A. Dill, TEDxSBU (2013)
+<p>
 </center>
 ---
 
