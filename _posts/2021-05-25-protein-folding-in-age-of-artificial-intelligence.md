@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Protein Folding Problem In The Age Of Artificial Intelligence
+tags: Protein, Artificial Intelligence, Computational-Biology
 articles:
   data_source: site.sample_page
   type: brief
