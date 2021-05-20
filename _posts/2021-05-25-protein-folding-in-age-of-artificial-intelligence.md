@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Protein Folding Problem In The Age Of Artificial Intelligence
-tags: Protein, Artificial Intelligence, Computational-Biology
+tags: Protein-Folding, Proteins, Computational-Biology, Bioinformatics, Deep-Learning, Machine-Learning, Artificial-Intelligence,
 articles:
   data_source: site.sample_page
   type: brief
@@ -9,7 +9,7 @@ articles:
 ---
 
 <center>
-<div class="card">
+<div class="card card--flat">
   <div class="card__content">
     <p>"If you could scale up a protein molecule to the size of a penny, 
       the number of protein molecules you have in your body is the same as 
