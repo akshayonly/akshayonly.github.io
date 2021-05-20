@@ -7,6 +7,7 @@ articles:
   show_info: true
 ---
 
+<center>
 > "If you could scale up a protein molecule to the
 >
 > size of a penny, the number of protein molecules you
@@ -16,7 +17,7 @@ articles:
 > pennies that would fill the Pacific Ocean."
 >
 > —Ken A. Dill, TEDxSBU (2013)
-
+</center>
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper pellentesque ullamcorper eu, dapibus eget nisi. Fusce pretium congue mollis. Curabitur vitae eros at ipsum pharetra egestas. Ut tempor maximus ex sit amet vulputate. Suspendisse sodales ultrices ligula quis efficitur. Morbi nec neque molestie, efficitur enim sit amet, fermentum metus. In auctor elementum finibus. Pellentesque eu erat ut urna iaculis gravida et eu sapien. Cras nec mauris consectetur, pellentesque sapien a, eleifend massa. Integer pellentesque nulla non orci tincidunt consectetur. Donec ac tincidunt lectus. In nisi sem, bibendum id maximus id, blandit sit amet elit.
