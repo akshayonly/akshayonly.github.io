@@ -1,11 +1,5 @@
 ---
 layout: article
-title: 
-aside:
-  toc: true
----
----
-layout: article
 title: Protein Folding Problem In The Age Of Artificial Intelligence
 mode: immersive
 header:
@@ -36,6 +30,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper
 
 # What are proteins and why their structure is important?
 
+Morbi varius nisl vel tellus condimentum, ac ullamcorper nisl pretium. Vivamus massa augue, dignissim quis varius sed, laoreet vitae ante. Nam eget bibendum velit. Aenean at rutrum diam. Integer est justo, efficitur ut lectus at, efficitur gravida ex. Cras ullamcorper tortor et mauris condimentum hendrerit. Nulla gravida odio vitae hendrerit pellentesque. Maecenas convallis consequat erat sit amet hendrerit. Integer gravida id dui sed auctor. Fusce tempus, velit in sodales congue, ante est posuere dui, ut viverra neque orci et libero. Donec convallis, metus eget efficitur sagittis, nisl ante ultricies mauris, sed hendrerit enim neque ac diam. Donec vitae est sed justo fermentum tempus ut id erat. In id porta sem.
+{: .text-justify}
+
+# How does they take their distinct structure?
+
 <center>
 <div class="item">
   <div class="item__image">
@@ -53,17 +52,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper
 </center>
 
 Morbi varius nisl vel tellus condimentum, ac ullamcorper nisl pretium. Vivamus massa augue, dignissim quis varius sed, laoreet vitae ante. Nam eget bibendum velit. Aenean at rutrum diam. Integer est justo, efficitur ut lectus at, efficitur gravida ex. Cras ullamcorper tortor et mauris condimentum hendrerit. Nulla gravida odio vitae hendrerit pellentesque. Maecenas convallis consequat erat sit amet hendrerit. Integer gravida id dui sed auctor. Fusce tempus, velit in sodales congue, ante est posuere dui, ut viverra neque orci et libero. Donec convallis, metus eget efficitur sagittis, nisl ante ultricies mauris, sed hendrerit enim neque ac diam. Donec vitae est sed justo fermentum tempus ut id erat. In id porta sem.
-{: .text-justify}
 
-# How does they take their distinct structure?
-Morbi varius nisl vel tellus condimentum, ac ullamcorper nisl pretium. Vivamus massa augue, dignissim quis varius sed, laoreet vitae ante. Nam eget bibendum velit. Aenean at rutrum diam. Integer est justo, efficitur ut lectus at, efficitur gravida ex. Cras ullamcorper tortor et mauris condimentum hendrerit. Nulla gravida odio vitae hendrerit pellentesque. Maecenas convallis consequat erat sit amet hendrerit. Integer gravida id dui sed auctor. Fusce tempus, velit in sodales congue, ante est posuere dui, ut viverra neque orci et libero. Donec convallis, metus eget efficitur sagittis, nisl ante ultricies mauris, sed hendrerit enim neque ac diam. Donec vitae est sed justo fermentum tempus ut id erat. In id porta sem.
-
-<center>
-<div class="card">
-  <div class="card__image">
-    <img class="image" src="/assets/gifs/28234-crop.gif">
-  </div>
-</div>
-</center>
-
-Morbi varius nisl vel tellus condimentum, ac ullamcorper nisl pretium. Vivamus massa augue, dignissim quis varius sed, laoreet vitae ante. Nam eget bibendum velit. Aenean at rutrum diam. Integer est justo, efficitur ut lectus at, efficitur gravida ex. Cras ullamcorper tortor et mauris condimentum hendrerit. Nulla gravida odio vitae hendrerit pellentesque. Maecenas convallis consequat erat sit amet hendrerit. Integer gravida id dui sed auctor. Fusce tempus, velit in sodales congue, ante est posuere dui, ut viverra neque orci et libero. Donec convallis, metus eget efficitur sagittis, nisl ante ultricies mauris, sed hendrerit enim neque ac diam. Donec vitae est sed justo fermentum tempus ut id erat. In id porta sem.
