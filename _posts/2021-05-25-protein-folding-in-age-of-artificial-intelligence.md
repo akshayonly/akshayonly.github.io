@@ -21,30 +21,11 @@ articles:
 </center>
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, semper pellentesque ullamcorper eu, dapibus eget nisi. Fusce pretium congue mollis. Curabitur vitae eros at ipsum pharetra egestas. Ut tempor maximus ex sit amet vulputate. Suspendisse sodales ultrices ligula quis efficitur. Morbi nec neque molestie, efficitur enim sit amet, fermentum metus. In auctor elementum finibus. Pellentesque eu erat ut urna iaculis gravida et eu sapien. Cras nec mauris consectetur, pellentesque sapien a, eleifend massa. Integer pellentesque nulla non orci tincidunt consectetur. Donec ac tincidunt lectus. In nisi sem, bibendum id maximus id, blandit sit amet elit.
+From a distance, Life seems simple, but up close it's intricate. Sylvia found herself after waking up one day, in a strange place she didn't expect to be, a hospital [^1]. Unable to recall, she panicked and tried contacting the police. She wasn't held against her will, and neither she was there because of any mistake. Sylvia, then in her 80s was suffering from a severe form of neurological disorder, Alzheimer's Disease.
 
 
-# What are proteins and why their structure is important?
+---
 
-Morbi varius nisl vel tellus condimentum, ac ullamcorper nisl pretium. Vivamus massa augue, dignissim quis varius sed, laoreet vitae ante. Nam eget bibendum velit. Aenean at rutrum diam. Integer est justo, efficitur ut lectus at, efficitur gravida ex. Cras ullamcorper tortor et mauris condimentum hendrerit. Nulla gravida odio vitae hendrerit pellentesque. Maecenas convallis consequat erat sit amet hendrerit. Integer gravida id dui sed auctor. Fusce tempus, velit in sodales congue, ante est posuere dui, ut viverra neque orci et libero. Donec convallis, metus eget efficitur sagittis, nisl ante ultricies mauris, sed hendrerit enim neque ac diam. Donec vitae est sed justo fermentum tempus ut id erat. In id porta sem.
+# Reference(s)
+[^1]: https://www.alzheimers.org.uk/blog/marks-story-we-were-living-nightmare-we-couldnt-wake-up-from
 
-
-# How does they take their distinct structure?
-
-<center>
-<div class="item">
-  <div class="item__image">
-    <img class="image image--lg" src="https://i.imgur.com/TUQ5YIT.gif">
-  </div>
-  <div class="item__content">
-    <div class="item__header">
-      <h4>Folding</h4>
-    </div>
-    <div class="item__description">
-      <p>2D animation depicting how chain of amino acids folds and take shape.</p>
-    </div>
-  </div>
-</div>
-</center>
-
-Morbi varius nisl vel tellus condimentum, ac ullamcorper nisl pretium. Vivamus massa augue, dignissim quis varius sed, laoreet vitae ante. Nam eget bibendum velit. Aenean at rutrum diam. Integer est justo, efficitur ut lectus at, efficitur gravida ex. Cras ullamcorper tortor et mauris condimentum hendrerit. Nulla gravida odio vitae hendrerit pellentesque. Maecenas convallis consequat erat sit amet hendrerit. Integer gravida id dui sed auctor. Fusce tempus, velit in sodales congue, ante est posuere dui, ut viverra neque orci et libero. Donec convallis, metus eget efficitur sagittis, nisl ante ultricies mauris, sed hendrerit enim neque ac diam. Donec vitae est sed justo fermentum tempus ut id erat. In id porta sem.
