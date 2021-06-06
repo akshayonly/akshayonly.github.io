@@ -8,6 +8,9 @@ articles:
   show_info: true
 ---
 
+On-going Process.
+{:.error}
+
 <center>
 <div class="card card--flat">
   <div class="card__content">
