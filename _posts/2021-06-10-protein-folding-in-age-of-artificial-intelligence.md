@@ -26,6 +26,8 @@ On-going Process.
 
 From a distance, Life seems simple, but up close it's intricate. Sylvia found herself after waking up one day, in a strange place she didn't expect to be, a hospital. Unable to recall, she panicked and tried contacting the police. She wasn't held against her will, and neither she was there because of any mistake. Sylvia, then in her 80s was suffering from a severe form of neurological disorder, Alzheimer's Disease [^1].
 
+Imagine if I gave you a car to drive whose tires aren't circular but rather square, or a fork without its teeth (tine). Will you be able to drive the car or eat your food with such "non-native" shapes? In the macroworld shapes are important for functioning, the same goes for in the microworld. One of the biological molecules that depends upon its "native" shape (structures) is Proteins. When proteins don't get into their native structure, it either leads to a cascade of down-the-line problems in the body.  Alzheimer’s disease is caused by one such scenario.
+
 The human brain can recognize complex patterns and objects better than other animals. Even so, we do not know yet how the brain solves object recognition [^2]. Yet, chances are the phone in your pocket has the ability to unlock itself by recognizing your face (Apple Face ID or Android’s Face Unlock). This task is achieved by a sophisticated deep learning method, known as Convolution Neural Network (CNN) [^3].
 
 
