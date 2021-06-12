@@ -5,7 +5,7 @@ tags: Protein-Folding Proteins Computational-Biology Deep-Learning Machine-Learn
 article_header:
   type: cover
   image:
-    src: /assets/images/Header-Post-01-01.jpg
+    src: /assets/images/Header-Post-01-01.jpeg
 ---
 
 On-going Process.
