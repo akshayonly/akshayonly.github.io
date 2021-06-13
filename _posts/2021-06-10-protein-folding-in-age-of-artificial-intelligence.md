@@ -2,6 +2,9 @@
 layout: article
 title: Protein Folding Problem In The Age Of Artificial Intelligence - I
 tags: Protein-Folding Proteins Computational-Biology Deep-Learning Machine-Learning 
+mode: immersive
+header:
+  theme: dark
 article_header:
   type: cover
   image:
