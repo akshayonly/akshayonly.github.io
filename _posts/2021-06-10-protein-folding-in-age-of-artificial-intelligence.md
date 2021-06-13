@@ -8,7 +8,7 @@ header:
 article_header:
   type: cover
   image:
-    src: /assets/images/Header-Image-Post-01.jpeg
+    src: /assets/images/Header-Post-01-crop.jpg
 ---
 
 On-going Process.
