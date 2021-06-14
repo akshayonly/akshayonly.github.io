@@ -35,6 +35,7 @@ The human brain can recognize complex patterns and objects better than other ani
 
 <center>
 <img class="image image--xl" src="https://static.wixstatic.com/media/1ade3f_03ac33e0a1de4ad5a560d9354abe1fcb~mv2.gif">
+<p>Image Credit: C. Fennell, Junior Fellow, Laufer Center for Physical and Quantitative Biology, Stony Brook University.</p>
 </center>
 
 ---
