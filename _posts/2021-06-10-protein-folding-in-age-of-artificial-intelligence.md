@@ -34,10 +34,18 @@ Imagine if you had a fork without its teeth (tine), would you be able to eat fro
 The human brain can recognize complex patterns and objects better than other animals. Even so, we do not know yet how the brain solves object recognition [^3]. Yet, chances are the phone in your pocket has the ability to unlock itself by recognizing your face (Apple Face ID or Android’s Face Unlock). This task is achieved by a sophisticated deep learning method, known as Convolution Neural Network (CNN) [^4].
 
 <center>
-<img class="image image--xl" src="https://static.wixstatic.com/media/1ade3f_03ac33e0a1de4ad5a560d9354abe1fcb~mv2.gif">
-<p>Image Credit: C. Fennell, Junior Fellow, Laufer Center for Physical and Quantitative Biology, Stony Brook University.</p>
+<div class="card card--flat">
+  <div class="card__image">
+    <img class="image" src="https://static.wixstatic.com/media/1ade3f_03ac33e0a1de4ad5a560d9354abe1fcb~mv2.gif">
+  </div>
+  <div class="card__content">
+    <div class="card__header">
+      <h4>The Funneled Energy Landscape</h4>
+    </div>
+    <p>Image Credit: C. Fennell, Junior Fellow, Laufer Center for Physical and Quantitative Biology, Stony Brook University.</p>
+  </div>
+</div>
 </center>
-
 ---
 [^1]: https://www.alzheimers.org.uk/blog/marks-story-we-were-living-nightmare-we-couldnt-wake-up-from
 [^2]: https://www.nature.com/scitable/topicpage/protein-misfolding-and-degenerative-diseases-14434929/
