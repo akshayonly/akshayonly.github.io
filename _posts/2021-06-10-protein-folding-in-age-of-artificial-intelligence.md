@@ -2,16 +2,13 @@
 layout: article
 title: Protein Folding Problem In The Age Of Artificial Intelligence - I
 tags: Protein-Folding Proteins Computational-Biology Deep-Learning Machine-Learning 
-mode: immersive
-header:
-  theme: dark
 article_header:
   type: cover
   image:
     src: /assets/images/Header-Post-01-crop.jpg
 ---
 
-On-going Process.
+Website & Article are still in development phase!
 {:.error}
 
 <center>
@@ -29,7 +26,7 @@ On-going Process.
 
 From a distance, Life seems simple, but up close it's intricate. Sylvia found herself after waking up one day, in a strange place she didn't expect to be, a hospital. Unable to recall, she panicked and tried contacting the police. She wasn't held against her will, and neither she was there because of any mistake. Sylvia, then in her 80s was suffering from a severe form of neurological disorder, Alzheimer's Disease [^1].
 
-Imagine if you had a fork without its teeth (tine), would you be able to eat from it? Or a car with Square tires rather than circular. Absurd, but the point here is about shapes (structures) that lead to functioning. From macroscale objects to microscale biological molecules, the structure is crucial for function. Alzheimer's Disease is the result of a protein molecule's loss of structure[^2].
+Imagine if you had a fork without its teeth (tine), would you be able to eat from it? Or a car with Square tires rather than circular. Absurd, but the point here is about shapes (structures) that lead to functioning. From macroscale objects to microscale biological molecules, the structure is crucial for function. Researchers believe, Alzheimer's Disease is the result of a protein molecule's loss of structure[^2].
 
 The human brain can recognize complex patterns and objects better than other animals. Even so, we do not know yet how the brain solves object recognition [^3]. Yet, chances are the phone in your pocket has the ability to unlock itself by recognizing your face (Apple Face ID or Android’s Face Unlock). This task is achieved by a sophisticated deep learning method, known as Convolution Neural Network (CNN) [^4].
 
