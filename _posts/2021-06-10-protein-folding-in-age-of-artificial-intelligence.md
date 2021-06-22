@@ -35,9 +35,10 @@ In 2018, during a biennial community-wide contest, a debuted group created a sti
 
 Despite the media hype, the "grand problem of biology" i.e., the protein folding problem is still yet to be solved. In this article, we’d try to understand the "grand problem of biology" by three core ideas it wants to tackle. We’d also see why one of the ideas would be solved by an AI based system. But instead of making structural biology folks obsolete, it'd help in understanding the remaining two ideas
 
+---
 # References
 [^1]: https://www.alzheimers.org.uk/blog/marks-story-we-were-living-nightmare-we-couldnt-wake-up-from
 [^2]: https://www.nature.com/scitable/topicpage/protein-misfolding-and-degenerative-diseases-14434929/
 [^3]: https://doi.org/10.1016/j.neuron.2012.01.010
 [^4]: https://machinelearning.apple.com/research/face-detection
----
+
