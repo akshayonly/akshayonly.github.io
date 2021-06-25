@@ -6,7 +6,7 @@ comments: true
 article_header:
   type: cover
   image:
-    src: /assets/images/Header-Post-01-crop.jpg
+    src: /assets/images/invert-header.jpg
 ---
 
 Website & Article are still in development phase!
