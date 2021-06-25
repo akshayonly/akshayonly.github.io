@@ -37,7 +37,7 @@ Despite the media hype, the "grand problem of biology" i.e., the protein folding
 
 # What are the three questions of Protein folding problem?
 <center>
-![Image]("/assets/images/I-work-protein.png"){:.shadow}
+![Image](assets/images/I-work-protein.png){:.shadow}
 </center>
 
 ---
