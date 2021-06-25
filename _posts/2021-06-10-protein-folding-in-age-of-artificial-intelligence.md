@@ -35,13 +35,9 @@ In 2018, during a biennial community-wide contest, a debuted group created a sti
 
 Despite the media hype, the "grand problem of biology" i.e., the protein folding problem is still yet to be solved. In this article, we’d try to understand the "grand problem of biology" by three core ideas it wants to tackle. We’d also see why one of the ideas would be solved by an AI based system. But instead of making structural biology folks obsolete, it'd help in understanding the remaining two ideas
 
-What are the three questions of Protein folding problem?
+# What are the three questions of Protein folding problem?
+<img class="image image--lg" src="https://imgs.xkcd.com/comics/proteins.png">
 
-<div class="card">
-  <div class="card__image">
-    <img class="image" src="https://imgs.xkcd.com/comics/proteins.png">
-  </div>
-</div>
 
 ---
 ### References
