@@ -40,9 +40,9 @@ Despite the media hype, the "grand problem of biology" i.e., the protein folding
 
 <div class="swiper my-3 swiper-demo swiper-demo--image swiper-demo--3">
   <div class="swiper__wrapper">
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://imgur.com/a/izQTOSU"/></div>
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://imgur.com/a/gylZy5t"/></div>
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://imgur.com/a/FOv84yd"/></div>
+    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/gifs/1.gif"/></div>
+    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/gifs/2.gif"/></div>
+    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/gifs/3.gif"/></div>
   </div>
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
