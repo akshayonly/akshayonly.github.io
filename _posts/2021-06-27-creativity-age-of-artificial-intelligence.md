@@ -11,3 +11,14 @@ article_header:
 
 Website & Article are still in development phase!
 {:.error}
+
+<center>
+<div class="card card--flat">
+  <div class="card__content">
+    <p>"The chief enemy of creativity is "good" sense."
+      <br>—Pablo Picasso
+    </p>
+  </div>
+</div>
+</center>
+---
