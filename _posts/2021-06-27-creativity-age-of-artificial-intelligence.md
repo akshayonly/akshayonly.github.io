@@ -15,8 +15,8 @@ Website & Article are still in development phase!
 <center>
 <div class="card card--flat">
   <div class="card__content">
-    <p>"The chief enemy of creativity is "good" sense."
-      <br>—Pablo Picasso
+    <p>"Creativity is intelligence having fun."
+      <br>—Anonymous
     </p>
   </div>
 </div>
