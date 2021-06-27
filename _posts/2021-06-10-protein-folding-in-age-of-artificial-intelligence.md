@@ -33,7 +33,7 @@ The human brain can recognize complex patterns and objects better than other ani
 
 In 2018, during a biennial community-wide contest, a debuted group created a stir among the research community as it took the first position. They introduced their model for the prediction of protein structure, known as “AlphaFold v1”. The model had CNN as a core component, with inspiration from other previous research. Two years later, the "Grand Problem of Biology" was claimed to be solved by their new version of “AlphaFold v2”.
 
-Despite the media hype, the "Grand Problem of Biology" i.e The Protein Folding Problem is still yet to be solved. In this article, we’d try to understand The Protein Folding Problem by three core ideas it wants to tackle. We’d also see why one of the ideas would be solved by an AI-based system. But instead of making biology folks obsolete, it'd help in understanding the remaining two ideas.
+Despite the media hype, the "Grand Problem of Biology" i.e The Protein Folding Problem is still yet to be solved. In this article, we’d try to understand The Protein Folding Problem by three core ideas it wants to tackle. We’d also see why one of the ideas would be solved by an AI-based system. But instead of making biology folks obsolete, it'd help in better understanding the remaining two ideas or even solved them.
 
 # What are the three ideas of Protein folding problem?
 ![Joke](https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/images/I-work-protein.png)
