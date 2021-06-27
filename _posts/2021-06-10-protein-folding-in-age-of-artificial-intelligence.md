@@ -25,28 +25,18 @@ Website & Article are still in development phase!
 </center>
 ---
 
-From a distance, Life seems simple, but up close it’s intricate. Sylvia found herself after waking up one day, in a strange place she didn’t expect to be, a hospital. Unable to recall, she panicked and tried contacting the police. She wasn’t held against her will, and neither was she there because of any mistake. Sylvia, then in her 80s was suffering from a severe form of neurological disorder, Alzheimer’s Disease [^1].
+From a distance, Life seems simple, but up close it’s intricate. Sylvia found herself after waking up one day, in a strange place she didn’t expect to be, a hospital. Unable to recall, she panicked and tried contacting the police. She wasn’t held against her will, and neither was she there because of any mistake. Sylvia, then in her 80s, was suffering from a severe form of neurological disorder.[^1].
 
-Imagine if you had a fork without its teeth (tine), would you be able to eat from it? Or a car with square-wheels rather than circular-wheels shape. Absurd, but the point here is about shape (structure) that leads to functioning. From macro-scale objects to micro-scale biological molecules, the structure is crucial for function. Researchers believe Alzheimer's Disease is the result of a protein molecule's loss of structure [^2].
+Imagine if you had a fork without its teeth (tine), would you be able to eat from it? Or a car with square wheels rather than circular wheels. Absurd, but the point here is about the shape (structure) that leads to its functioning. From macro-scale objects to micro-scale biological molecules, the structure is crucial for function. The neurological disorder Slyvia was suffering from was Alzheimer’s disease. Researchers believe this disease is the result of a protein (a biological molecule) misfolding, i.e., it does not reach its proper structure.[^2].
 
-The human brain can recognize complex patterns and objects better than other animals. Even so, we do not know fully yet how the brain solves object recognition [^3]. Yet, chances are the phone in your pocket has the ability to unlock itself by recognizing your face (Apple Face ID or Android’s Face Unlock). This task is possible through a sophisticated algorithm, known as Convolutional neural network (CNN)[^4].
+The human brain can recognize complex patterns and objects better than other animals. Even so, we do not know yet how the brain solves object recognition. Yet, chances are the phone in your pocket has the ability to unlock itself by recognizing your face (Apple Face ID or Android’s Face Unlock). This task is possible through a sophisticated algorithm, known as a convolutional neural network (CNN).[^4].
 
-In 2018, during a biennial community-wide contest, a debuted group created a stir among the research community as it took the first position. They introduced their model for prediction of protein's structure, known as “AlphaFold v1”. The model had CNN as a core component, with inspiration from others previous research. Two years later, the "grand problem of biology" was claimed to be solved by their new version of “AlphaFold v2”.
+In 2018, during a biennial community-wide contest, a debuted group created a stir among the research community as it took the first position. They introduced their model for the prediction of protein structure, known as “AlphaFold v1”. The model had CNN as a core component, with inspiration from other previous research. Two years later, the "Grand Problem of Biology" was claimed to be solved by their new version of “AlphaFold v2”.
 
-Despite the media hype, the "grand problem of biology" i.e., the protein folding problem is still yet to be solved. In this article, we’d try to understand the "grand problem of biology" by three core ideas it wants to tackle. We’d also see why one of the ideas would be solved by an AI based system. But instead of making structural biology folks obsolete, it'd help in understanding the remaining two ideas
+Despite the media hype, the "Grand Problem of Biology" i.e The Protein Folding Problem is still yet to be solved. In this article, we’d try to understand The Protein Folding Problem by three core ideas it wants to tackle. We’d also see why one of the ideas would be solved by an AI-based system. But instead of making biology folks obsolete, it'd help in understanding the remaining two ideas.
 
 # What are the three ideas of Protein folding problem?
 ![Joke](https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/images/I-work-protein.png)
-
-<div class="swiper my-3 swiper-demo swiper-demo--image swiper-demo--3">
-  <div class="swiper__wrapper">
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/gifs/1.gif"/></div>
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://imgur.com/4QXeZUz"/></div>
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Protein_folding.png"/></div>
-  </div>
-  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
-  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
-</div>
 
 ---
 ### References
