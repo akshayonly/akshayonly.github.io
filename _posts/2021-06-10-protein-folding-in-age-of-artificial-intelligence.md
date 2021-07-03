@@ -9,7 +9,7 @@ article_header:
     src: /assets/images/Header-Post-01-crop.jpg
 ---
 
-Website & Article are still in development phase!
+In development.
 {:.error}
 
 <center>
