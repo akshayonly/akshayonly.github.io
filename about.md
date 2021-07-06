@@ -25,10 +25,10 @@ titles:
   # @end locale config
 key: page-about
 ---
-My name is Akshay Shirsath. All the thoughts which overwhelm me, I wrote them here. Topics related to Machine learning, AI and especially those interacting with Biology fascinate me. So I try to find more about them and try to put forth in a way an 8th grader would understand. 
+My name is Akshay Shirsath. All the thoughts which overwhelm me, I write them here. Machine learning, AI, and especially those sitting in-between Biology fascinate me. So I write them in such a way folks from either the field can understand. 
 
 Connect with me:
 
-<a class="button button--success button--rounded button--lg" href="https://www.linkedin.com/in/akshayonly/"><i class="fab fa-linkedin"></i> Linkedin</a>
+<a class="button button--success button--rounded button--lg" href="https://www.linkedin.com/in/akshayonly/"><i class="fab fa-linkedin"></i></a>
 
-<a class="button button--success button--rounded button--lg" href="https://twitter.com/akshayonly_"><i class="fab fa-twitter"></i> Twitter</a>
+<a class="button button--success button--rounded button--lg" href="https://twitter.com/akshayonly_"><i class="fab fa-twitter"></i></a>
