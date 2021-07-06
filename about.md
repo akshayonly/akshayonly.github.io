@@ -28,10 +28,8 @@ key: page-about
 Hi folks!
 Certain thoughts and ideas overwhelmed me. Machine learning, AI, and especially those sitting in-between Biology fascinates me. So I write them here. 
 
-Connect with me:
-
+## Connect with me
+[<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/akshayonly/)
 [<img align="left" alt="twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />](https://twitter.com/akshayonly_)
-
-<a class="button button--success button--rounded button--lg" href="https://www.linkedin.com/in/akshayonly/"><i class="fab fa-linkedin"></i></a>
-
-<a class="button button--success button--rounded button--lg" href="https://twitter.com/akshayonly_"><i class="fab fa-twitter"></i></a>
+<br>
+<br>
