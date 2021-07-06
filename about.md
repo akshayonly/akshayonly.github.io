@@ -25,5 +25,10 @@ titles:
   # @end locale config
 key: page-about
 ---
-Hello World, I’m Akshay Shirsath. 
-This is a personal blog about topics that fascinate me and about whom I want to share with the community. The end goal of every article is to bridge the understanding between concepts in a simplified manner.
+My name is Akshay Shirsath. All the thoughts which I  overwhelm me contain in my head, I wrote them here. Topics related to Machine learning, AI and especially those interacting with Biology fascinate me. So I try to find more about them and try to put forth in a way an 8th grader would understand. 
+
+More about me:
+
+<a class="button button--success button--rounded button--lg" href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+
+<a class="button button--success button--rounded button--lg" href="#"><i class="fab fa-twitter"></i>Twitter</a>
