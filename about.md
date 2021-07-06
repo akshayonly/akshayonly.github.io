@@ -25,7 +25,8 @@ titles:
   # @end locale config
 key: page-about
 ---
-My name is Akshay Shirsath. All the thoughts which overwhelm me, I write them here. Machine learning, AI, and especially those sitting in-between Biology fascinate me. So that folks from either field can understand.
+Hi folks!
+Certain thoughts and ideas overwhelmed me. Machine learning, AI, and especially those sitting in-between Biology fascinates me. So I write them here. 
 
 Connect with me:
 
