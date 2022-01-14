@@ -16,7 +16,9 @@ article_header:
 In this article, we would visualize MeSH terms associated with any PubMed article as a Network-graph.<!--more--> 
 
 # Introduction
-> "When you visualize, then you materialize." <cite>&mdash; Denis Waitley</cite>
+> "When you visualize, then you materialize." 
+> 
+> <cite>&mdash; Denis Waitley</cite>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.
 
