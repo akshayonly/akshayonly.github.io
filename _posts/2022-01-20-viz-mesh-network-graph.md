@@ -2,13 +2,15 @@
 layout: article
 title:  "Visualizing MeSH terms as a Network Graph"
 tags: MeSH PubMed E-utilities Biopython Pyvis
-excerpt_separator: <!--more-->
+mode: immersive
+header:
+  theme: dark
 article_header:
   type: overlay
   theme: dark
   background_color: '#203028'
   background_image:
-    gradient: 'linear-gradient(135deg, rgba(255,255,255,1), rgba(255,255,255,1))'
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: assets/post-imgs/p1-header-01.png
 ---
 In this article, we would visualize MeSH terms associated with any PubMed article as a Network-graph.<!--more--> 
