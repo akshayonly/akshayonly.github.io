@@ -29,6 +29,21 @@ In this article, we would visualize MeSH terms associated with any PubMed articl
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.
 
+```mermaid
+graph TB;
+    A[PMID]
+    B[Entrez.efetch( )]
+    C[Medline.parse( )]
+    D[record]
+    E[Mesh Terms]
+    F[pyvis.network]
+    A-->B;
+    B-->C;
+    C-->D;
+    D-->E;
+    E-->F;    
+```
+
 # Handling millions of biomedical citations
 
 PubMed is a search engine-like resource that provides access to biomedical and life sciences literature. In another word, it’d a freely available database that stores more than 33 million citations and abstracts of biomedical literature. Now searching through millions of records and retrieval of specific literature based on user-given queries or topics can be challenging. If the query is about ‘Cancer’, you don’t want to return information related to some other disease like ‘Malaria’. Also, terms such as ‘Neoplasm’, ‘Tumour’ and ‘Cancer’ are umbrella terms, so in order to deal with such and more issues, the Medical Subject Headings (MeSH) were introduced. 
