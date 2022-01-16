@@ -3,6 +3,7 @@ layout: article
 title:  "Visualizing MeSH terms as a Network Graph"
 tags: MeSH PubMed E-utilities Biopython Pyvis
 mode: immersive
+mermaid: true
 aside:
   toc: false
 header:
@@ -36,7 +37,7 @@ graph TB;
     C[Medline.parse( )]
     D[record]
     E[Mesh Terms]
-    F[pyvis.network]
+    F[pyvis.network( )]
     A-->B;
     B-->C;
     C-->D;
