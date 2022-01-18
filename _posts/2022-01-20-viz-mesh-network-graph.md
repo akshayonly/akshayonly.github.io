@@ -213,3 +213,10 @@ MKGraph.show('single_article_mesh_graph_network.html')
 ~~~
 
 Phasellus ut libero a leo sagittis rutrum ut in enim. Suspendisse massa dolor, blandit at magna a, tristique sollicitudin tortor. Praesent non tincidunt neque. Quisque vel auctor lacus, vel vulputate tellus. Curabitur a tristique arcu. In imperdiet, nisi ut tristique feugiat, massa sapien sodales risus, eget accumsan ipsum metus quis est. Sed nisl lacus, ornare at ante vulputate, suscipit dapibus risus.
+
+<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="result" data-slug-hash="RwLYywp" data-preview="true" data-user="akshayonly" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/akshayonly/pen/RwLYywp">
+  MeSH Terms Network Graph For Single Article - 100width</a> by Akshay Shirsath (<a href="https://codepen.io/akshayonly">@akshayonly</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
