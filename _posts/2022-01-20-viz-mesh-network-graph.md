@@ -14,7 +14,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: assets/post-imgs/p1-header-01.png
+    src: assets/post-imgs/p1-header-img-01.png
 ---
 In this article, we would visualize MeSH terms associated with any PubMed article as a Network-graph.<!--more--> 
 
