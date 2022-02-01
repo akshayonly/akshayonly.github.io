@@ -31,6 +31,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt orna
 
 PubMed is a search engine-like resource that provides access to biomedical and life sciences literature. In another word, it’d a freely available database that stores more than 33 million citations and abstracts of biomedical literature. Now searching through millions of records and retrieval of specific literature based on user-given queries or topics can be challenging. If the query is about ‘Cancer’, you don’t want to return information related to some other disease like ‘Malaria’. Also, terms such as ‘Neoplasm’, ‘Tumour’ and ‘Cancer’ are umbrella terms, so in order to deal with such and more issues, the Medical Subject Headings (MeSH) were introduced. 
 
+# 20 Cancer pubmed articles & Covid-19 pubmed articles MeSH terms network graph
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Op4RV-kaTxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Primer on Graph theory with pyvis
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla risus leo, aliquam quis metus et, luctus facilisis mauris. Nam iaculis laoreet diam, quis viverra nisi varius et. Suspendisse viverra orci orci, iaculis iaculis tortor consectetur non. Vestibulum tincidunt, tortor eget scelerisque feugiat, massa sem interdum diam, at tincidunt erat orci ac erat. Fusce at luctus lacus, et ultricies odio. Aenean rutrum ligula vitae vestibulum ullamcorper. Integer vitae dignissim orci. Nullam at mattis ligula. Integer tempus turpis porta nibh ullamcorper cursus.
