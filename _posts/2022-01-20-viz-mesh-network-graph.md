@@ -25,7 +25,25 @@ In this article, we would visualize MeSH terms associated with any PubMed articl
   </div>
 </center>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.
+Recently I switched to Obsidian as a primary notes-taking platform. Obsidian has an amazing feature that lets the user view their notes as a graph. Below is a snapshot of my notes. 
+
+<div class="swiper my-3 swiper-demo swiper-demo--image swiper-demo--3">
+  <div class="swiper__wrapper">
+    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/post-imgs/p1-screenshoot-01.jpg"/></div>
+    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/post-imgs/p1-screenshoot-02.jpg"/></div>
+  </div>
+  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
+  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
+</div>
+
+This let me ponder upon possibilities to put in place such a structure for biomedical literature. I thought, wouldn’t it would be great if we can represent a research article in a graph manner? Upon researching (googling...) I came across [connected papers](https://www.connectedpapers.com/), this site builds graphs of related papers based on the user-given paper. 
+
+Cool visualization, but I wanted to visualize a research article as a network graph. This isn't straightforward also, there are a few issues here:
+1. Not all biomedical articles or literature is available. i.e., paywalls.
+2. Processing the entire text in typical 6-8 pages literature is non-trivial.
+3. Even if we processed the text, there can be different terms for the single biomedical phenomenon. This can create an issue if we scaled up our ‘graph-based visualizer’ to incorporate multiple articles. Because one article can have 'cancer' term, while another can have 'neoplasm'. Hence, then connecting such two terms which have similar meanings would be challenging.
+
+So to simplify the approach, I decided to use MeSH terms which are available for most of the biomedical articles present in PubMed.
 
 # Handling millions of biomedical citations
 
