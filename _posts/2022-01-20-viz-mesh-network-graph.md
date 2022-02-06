@@ -35,6 +35,13 @@ Recently I switched to Obsidian as a primary notes-taking platform. Obsidian has
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
 </div>
+<script>
+{%- include scripts/lib/swiper.js -%}
+var SOURCES = window.TEXT_VARIABLES.sources;
+window.Lazyload.js(SOURCES.jquery, function() {
+  $('.swiper-demo').swiper();
+});
+</script>
 
 This let me ponder upon possibilities to put in place such a structure for biomedical literature. I thought, wouldn’t it would be great if we can represent a research article in a graph manner? Upon researching (googling...) I came across [connected papers](https://www.connectedpapers.com/), this site builds graphs of related papers based on the user-given paper. 
 
