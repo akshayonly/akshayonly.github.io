@@ -10,7 +10,7 @@ header:
 article_header:
   type: cover
   image:
-    src: assets/post-imgs/p1-header-img-01.png
+    src: assets/post-imgs/p1-header-img-01-resize.png
 ---
 
 In this article, we would visualize MeSH terms associated with any PubMed article as a Network-graph.<!--more--> 
