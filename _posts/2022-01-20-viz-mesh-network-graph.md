@@ -10,7 +10,7 @@ header:
 article_header:
   type: cover
   image:
-    src: assets/post-imgs/p1-header-img-01-resize.png
+    src: assets/Post-01-Imgs/1.png
 ---
 In Development.
 {:.warning}
@@ -31,8 +31,8 @@ A while back, I came across Obsidian which is a Note-taking application. One of 
 
 <div class="swiper my-3 swiper-demo swiper-demo--image swiper-demo--3">
   <div class="swiper__wrapper">
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/post-imgs/p01/p1-post-image-01.jpg"/></div>
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/post-imgs/p01/p1-post-image-02.jpg"/></div>
+    <div class="swiper__slide"><img class="lightbox-ignore" src="assets/Post-01-Imgs/2.png"/></div>
+    <div class="swiper__slide"><img class="lightbox-ignore" src="assets/Post-01-Imgs/3.png"/></div>
   </div>
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
@@ -49,8 +49,8 @@ Forming such a network connection helps us understand relationships between enti
 
 <div class="swiper my-3 swiper-demo swiper-demo--image swiper-demo--3">
   <div class="swiper__wrapper">
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/post-imgs/p01/Schziophrenia_PPI.jpg"/></div>
-    <div class="swiper__slide"><img class="lightbox-ignore" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/post-imgs/p01/2004-us-pred-election-blog.jpg"/></div>
+    <div class="swiper__slide"><img class="lightbox-ignore" src="assets/Post-01-Imgs/4.png"/></div>
+    <div class="swiper__slide"><img class="lightbox-ignore" src="assets/Post-01-Imgs/5.png"/></div>
   </div>
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
