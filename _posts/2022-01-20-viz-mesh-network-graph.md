@@ -29,15 +29,27 @@ In this article, we would visualize MeSH terms associated with any PubMed articl
 
 A while back, I came across Obsidian which is a Note-taking application. One of its key features is creating connections between different notes. It lets users view these inter-connections in a - Graph view which is pretty amazing! Check out the below screenshots.
 
-<img class="image image--lg" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/2.png"/>
+<div class="hero hero--dark" style='background-image: url("https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/2.png");'>
+  <div class="hero__content">
+  </div>
+</div>
 
-<img class="image image--xl" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/3.png"/>
+<div class="hero hero--dark" style='background-image: url("https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/3.png");'>
+  <div class="hero__content">
+  </div>
+</div>
 
 Forming such a network connection helps us understand relationships between entities. Apart from visualizing interconnected notes, such network-graph or graphs have actual scientific use cases. The image below displays the protein interactome-based study of schizophrenia, and another image displays the network analysis and visualization of political blogs preceding the U.S. Presidential Election of 2004.
 
-<img class="image image--lg" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/4.png"/>
+<div class="hero hero--dark" style='background-image: url("https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/4.png");'>
+  <div class="hero__content">
+  </div>
+</div>
 
-<img class="image image--xl" src="https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/5.png"/>
+<div class="hero hero--dark" style='background-image: url("https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/5.png");'>
+  <div class="hero__content">
+  </div>
+</div>
 
 This let me ponder upon different possibilities. I thought, wouldn’t it would be great if we can represent a scientific article (or biomedical literature) in a graph manner? But why should anyone visualize scientific literature as a network graph? Simple answer, for getting a high-level overview of relevant terms before jumping into reading the article.
 
