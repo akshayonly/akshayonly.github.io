@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Visualizing MeSH terms as a Network Graph"
+title:  "Visualising Scientific Articles as a Network Graph"
 tags: MeSH PubMed E-utilities Biopython Pyvis
 aside:
   toc: false
