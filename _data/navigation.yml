@@ -1,12 +1,15 @@
 header:
   - title: Posts
     url: /posts.html
-
+    
+  - title: Archive
+    url: /archive.html
+    
   - title: Projects
     url: /projects.html
 
   - title: Publications
     url: /publications.html
 
-  - title: Archive
-    url: /archive.html
+  - title: About
+    url: /about.html
