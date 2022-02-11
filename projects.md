@@ -3,7 +3,7 @@ layout: article
 title: Projects
 ---
 
-### Covid-19 Meta-Analysis By Data Minning 200,000 PubMed Literature
+### Exploratory meta-data analysis of 200,000 Sars Cov-2 bibliographic data from PubMed Entrez
 On-going.
 {:.warning}
 <br>
