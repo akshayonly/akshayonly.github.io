@@ -2,7 +2,7 @@
 layout: article
 title: Projects
 ---
-## Two Hundred Thousand Covid-19 PubMed Literature Servey Through Data Minning Approach
+## Covid-19 Meta-Analysis By Data Minning 200,000 PubMed Literature
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/twohundredthousand-covid-19-literature/">Learn More</a> 
 
 ## Two Scientific Topics Comparison through building MeSH Network Graph
@@ -10,7 +10,7 @@ This web application Visualise & Compare Any Two Research (Scientific) Topics Ba
 <a class="button button--primary button--rounded button--xs" href="https://tcmng.herokuapp.com/">Web Application</a> 
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/tcMNG/">Learn More</a> 
 
-## Two Scientific Topics Comparison through building MeSH Network Graph
+## Single Article MeSH Network Graph
 This web application visualizes MeSH terms in a PubMed article as Network-Graph representation.
 <a class="button button--primary button--rounded button--xs" href="https://samng.herokuapp.com/">Web Application</a> 
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/saMNG/">Learn More</a> 
