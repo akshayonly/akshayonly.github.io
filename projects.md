@@ -29,3 +29,8 @@ This web app compares any two music artists based on their popular tracks using 
 <a class="button button--primary button--rounded button--xs" href="https://artist-compare.herokuapp.com/">Web Application</a> 
 <br>
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/Artist-Compare/">Learn More</a> 
+
+### Classifying Genetic mutation from high-dimensional clinical features
+A Case study is to classify the genetic mutation classes from biomedical text.
+<br>
+<a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/ML-CS-classify-genetic-mutation">Learn More</a> 
