@@ -17,6 +17,19 @@ In Development.
 
 In this article, we would visualize MeSH terms associated with any PubMed article as a Network-graph.<!--more--> 
 
+CONTENT
+
+1. Introduction
+2. PubMed, Medline & Entrez
+3. Medical subject headings (MeSH)
+4. Biological Named-entity recognition (BioNER)
+5. Building & Visualising Graphs with Networkx & Pyvis
+6. Abstract as Network Graph
+7. MeSH terms as Network Graph
+8. Conclusion
+9. Summary
+10. References
+
 # Introduction
 <center>
   <div class="card card--flat">
@@ -31,12 +44,14 @@ A while back, I came across Obsidian which is a Note-taking application. One of 
 
 ![Image](https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/2.png "Image_shadow"){:.shadow}
 <br>
+<br>
 ![Image](https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/3.png "Image_shadow"){:.shadow}
 
 
 Forming such a network connection helps us understand relationships between entities. Apart from visualizing interconnected notes, such network-graph or graphs have actual scientific use cases. The image below displays the protein interactome-based study of schizophrenia, and another image displays the network analysis and visualization of political blogs preceding the U.S. Presidential Election of 2004.
 
 ![Image](https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/4.png "Image_shadow"){:.shadow}
+<br>
 <br>
 ![Image](https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/5.png "Image_shadow"){:.shadow}
 
