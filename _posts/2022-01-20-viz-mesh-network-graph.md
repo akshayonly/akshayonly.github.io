@@ -3,7 +3,7 @@ layout: article
 title:  "Visualizing Scientific Articles as a Network Graph"
 tags: MeSH PubMed E-utilities Biopython Pyvis
 aside:
-  toc: false
+  toc: true
 mode: immersive
 header:
   theme: dark
