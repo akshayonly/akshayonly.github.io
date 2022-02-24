@@ -63,4 +63,97 @@ But how can we do this? I started researching (googling) whether such tools or p
 2. Even if we get articles that are accessible, processing on average 6-9 pages of PDFs can be a little tricky.
 3. Also, if we scale up to incorporate many articles this can prove challenging. Because there can be different words with similar meanings. 
 
-So to tackle the above issues and to keep hands simple we'd use MeSH terms which are present for most of the biomedical literature. (We'd learn more about them below)
+So to tackle the above issues and to keep hands simple we'd use MeSH terms which are present for most of the biomedical literature & also apply an NLP technique known as Entity-named recognition to extract key terms. (We'd learn more about them below)
+
+# PubMed, Medline & Entrez
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras adipiscing enim eu turpis egestas pretium. Cursus turpis massa tincidunt dui. Vulputate ut pharetra sit amet aliquam. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Varius morbi enim nunc faucibus. Urna molestie at elementum eu facilisis sed odio. Amet consectetur adipiscing elit ut. Porttitor rhoncus dolor purus non. Congue nisi vitae suscipit tellus mauris a diam maecenas.
+
+Turpis in eu mi bibendum. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Viverra ipsum nunc aliquet bibendum enim. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Convallis posuere morbi leo urna molestie at elementum. Arcu cursus vitae congue mauris rhoncus. Nisl nunc mi ipsum faucibus vitae aliquet. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Leo vel fringilla est ullamcorper eget nulla. Semper quis lectus nulla at volutpat diam.
+
+~~~ bash
+!pip install -q biopython
+~~~
+Once it gets install, let's import the modules
+~~~ python
+from Bio import Entrez
+from Bio import Medline
+~~~
+Below function utilises efetch function of Entrez to return MEDLINE record for given PMID of PubMed article.
+
+~~~ python
+def fetch_data(pmids):
+    """Returns MEDLINE record associated with the PMID(s)"""
+    
+    Entrez.email = 'akishirsath@gmail.com'
+
+    # Extracting MEDLINE record for the given PMID(s)
+    handle = Entrez.efetch(db="pubmed", 
+                           id=pmids, 
+                           rettype="medline", 
+                           retmode="text")
+
+    # Parsing the XML format 
+    records = Medline.parse(handle)    
+    
+    return list(records)
+~~~
+
+# Medical subject headings (MeSH)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras adipiscing enim eu turpis egestas pretium. Cursus turpis massa tincidunt dui. Vulputate ut pharetra sit amet aliquam. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Varius morbi enim nunc faucibus. Urna molestie at elementum eu facilisis sed odio. Amet consectetur adipiscing elit ut. Porttitor rhoncus dolor purus non. Congue nisi vitae suscipit tellus mauris a diam maecenas.
+
+Turpis in eu mi bibendum. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Viverra ipsum nunc aliquet bibendum enim. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Convallis posuere morbi leo urna molestie at elementum. Arcu cursus vitae congue mauris rhoncus. Nisl nunc mi ipsum faucibus vitae aliquet. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Leo vel fringilla est ullamcorper eget nulla. Semper quis lectus nulla at volutpat diam.
+
+~~~ python
+data_dict.get('MH', 'NONE')
+~~~
+OUTPUT
+~~~
+['*Alzheimer Disease/diagnosis/epidemiology/physiopathology', 'Humans']
+~~~
+
+# Biological Named-entity recognition (BioNER)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim eu turpis. Sagittis orci a scelerisque purus semper. Tempor id eu nisl nunc mi ipsum faucibus vitae. At elementum eu facilisis sed odio morbi quis commodo odio. Eget lorem dolor sed viverra. In dictum non consectetur a erat nam at lectus urna. Imperdiet proin fermentum leo vel orci porta. Eros in cursus turpis massa tincidunt dui ut ornare. Tristique senectus et netus et malesuada.
+```
+!pip install -q nxviz
+!pip install -q scispacy
+!pip install -q https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_ner_bc5cdr_md-0.4.0.tar.gz
+```
+Let's import required functions
+```
+import scispacy
+import spacy
+```
+We need to load the NER model 
+```
+nlp = spacy.load("en_ner_bc5cdr_md")
+```
+Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Eget felis eget nunc lobortis mattis. Non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Egestas pretium aenean pharetra magna ac placerat. Amet consectetur adipiscing elit pellentesque habitant morbi tristique. Purus ut faucibus pulvinar elementum integer. Augue eget arcu dictum varius duis.
+
+# Building & Visualising Graphs
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim eu turpis. 
+
+# Abstract as Network Graph
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim eu turpis. Sagittis orci a scelerisque purus semper. 
+
+Tempor id eu nisl nunc mi ipsum faucibus vitae. At elementum eu facilisis sed odio morbi quis commodo odio. Eget lorem dolor sed viverra. In dictum non consectetur a erat nam at lectus urna. Imperdiet proin fermentum leo vel orci porta. Eros in cursus turpis massa tincidunt dui ut ornare. Tristique senectus et netus et malesuada.
+
+# MeSH terms as Network Graph
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim eu turpis. Sagittis orci a scelerisque purus semper. 
+
+Tempor id eu nisl nunc mi ipsum faucibus vitae. At elementum eu facilisis sed odio morbi quis commodo odio. Eget lorem dolor sed viverra. In dictum non consectetur a erat nam at lectus urna. Imperdiet proin fermentum leo vel orci porta. Eros in cursus turpis massa tincidunt dui ut ornare. Tristique senectus et netus et malesuada.
+
+# Conclusion
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim eu turpis. Sagittis orci a scelerisque purus semper. Tempor id eu nisl nunc mi ipsum faucibus vitae. At elementum eu facilisis sed odio morbi quis commodo odio. Eget lorem dolor sed viverra. In dictum non consectetur a erat nam at lectus urna. Imperdiet proin fermentum leo vel orci porta. Eros in cursus turpis massa tincidunt dui ut ornare. Tristique senectus et netus et malesuada.
+
+# Summary
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+2. Eget sit amet tellus cras adipiscing enim eu turpis. Sagittis orci a scelerisque purus semper. 
+3. Tempor id eu nisl nunc mi ipsum faucibus vitae. 
+4. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Eget felis eget nunc lobortis mattis. 
+5. Consequat id porta nibh venenatis. Fringilla ut morbi tincidunt augue interdum velit euismod in. Euismod nisi porta lorem mollis aliquam ut porttitor. 
+
+# References
+
+
+
