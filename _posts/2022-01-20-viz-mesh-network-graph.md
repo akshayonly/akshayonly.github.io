@@ -57,6 +57,8 @@ Forming such a network connection helps us understand relationships between enti
 
 This let me ponder upon different possibilities. I thought, wouldn’t it would be great if we can represent a scientific article (or biomedical literature) in a graph manner? But why should anyone visualize scientific literature as a network graph? Simple answer, for getting a high-level overview of relevant terms before jumping into reading the article.
 
+![Image](https://raw.githubusercontent.com/akshayonly/akshayonly.github.io/master/assets/Post-01-Imgs/mesh_sars.jpg "Sars CoV-2 MeSH Network-Graph"){:.rounded}
+
 But how can we do this? I started researching (googling) whether such tools or platforms exist. I came across connected papers, this site builds graphs of related papers based on the user-given paper. Cool visualization, but not what we want. So let's build our own tool but this isn’t straightforward also, there are a few issues here:
 
 1. Not all biomedical articles or literature is accessible. i.e., paywalls.
