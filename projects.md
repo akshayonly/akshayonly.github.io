@@ -3,7 +3,7 @@ layout: article
 title: Projects
 ---
 
-### Exploratory meta-data analysis of 200,000 Sars Cov-2 bibliographic data from PubMed Entrez
+### Exploratory data analysis of 200,000 Sars Cov-2 bibliographic & citation data from MEDLINE & PubMed
 On-going.
 {:.warning}
 <br>
