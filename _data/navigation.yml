@@ -1,7 +1,4 @@
 header:
-  - title: Posts
-    url: /posts.html
-    
   - title: Archive
     url: /archive.html
     
