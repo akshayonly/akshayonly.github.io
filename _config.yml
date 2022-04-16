@@ -46,8 +46,8 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : # title link url, "/" (default)
-  home    : # home layout url, "/" (default)
+  root    : https://akshayonly.github.io/ # title link url, "/" (default)
+  home    : https://akshayonly.github.io/ # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
