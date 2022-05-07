@@ -3,7 +3,7 @@ layout: article
 title: Projects
 ---
 
-### Exploratory data analysis of 200,000 SARS-CoV-2 bibliographic & citation data from MEDLINE & PubMed
+### Visual Dashboard of ~200,000 SARS-CoV-2 bibliographic & citation data from MEDLINE & PubMed
 On-going.
 {:.warning}
 <br>
