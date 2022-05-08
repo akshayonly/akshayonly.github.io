@@ -26,8 +26,6 @@ titles:
 key: page-about
 ---
 
-### Hi there 👋
-
 - 👋 Hi, I'm Bioinformatician from India. 
 - 👀 I’m interested in Machine learning, Genomics, Structural Biology
 - 📫 How to reach me - 
