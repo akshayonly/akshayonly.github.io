@@ -3,11 +3,6 @@ layout: article
 title: Projects
 ---
 
-### Syncing Web Articles From Pocket to Notion Database
-<br>
-Pondering...
-{:.info}
-
 ### Visualising Common Enzymes Between Two Diseases Through Biomedical Bibliographic & Citation Metadata
 <br>
 On-Going..
@@ -15,16 +10,15 @@ On-Going..
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/Viz-Common-Enzymes">Learn More</a> 
 
 ### Two Scientific Topics Comparison through building MeSH Network Graph
-This web application Visualise & Compare Any Two Research (Scientific) Topics Based On MeSH Terms.
+This web application visualizes and compares any two research (scientific) topics based on MeSH terms.
 <br>
 Completed
 {:.success}
-<a class="button button--primary button--rounded button--xs" href="https://tcmng.herokuapp.com/">Web Application</a> 
-<br>
+
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/tcMNG/">Learn More</a> 
 
 ### Single Article MeSH Network Graph
-This web application visualizes MeSH terms in a PubMed article as Network-Graph representation.
+This web application presents MeSH terms from a PubMed article in a network graph representation.
 <br>
 Completed
 {:.success}
@@ -33,7 +27,7 @@ Completed
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/saMNG/">Learn More</a> 
 
 ### Music Artists Compare
-This web app compares any two music artists based on their popular tracks using Spotify Web API.
+This web application utilizes the Spotify Web API to compare any two music artists based on their popular tracks.
 <br>
 Completed
 {:.success}
