@@ -1,7 +1,14 @@
 ---
 title: A Guide to HMMER3, Biopython, and CD-HIT
 layout: article
-tags: bioinformatics biopython
+mode: immersive
+header:
+  theme: dark
+article_header:
+  type: cover
+  image:
+    src: assets/postimages/130124/img_01.jpg
+tags: bioinformatics biopython cdhit hmm
 ---
 
 The field of bioinformatics, a fascinating intersection of biology and information technology, has witnessed remarkable advancements in recent years. Central to these advancements are tools like HMMER3, Biopython, and CD-HIT, each playing a pivotal role in understanding and interpreting biological data. This blog post aims to demystify these tools, explaining their functionalities and applications in a manner accessible to laymen, while providing technical insights valuable to Technical Peep in the field.
