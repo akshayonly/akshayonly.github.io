@@ -1,5 +1,5 @@
 ---
-title: A Guide to HMMER3, Biopython, and CD-HIT
+title: A Short Intro to HMMER3, Biopython, and CD-HIT
 layout: article
 mode: immersive
 header:
