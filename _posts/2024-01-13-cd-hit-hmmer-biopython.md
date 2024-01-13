@@ -15,21 +15,21 @@ The field of bioinformatics, a fascinating intersection of biology and informati
 
 ## HMMER3: Decoding Biological Sequences
 
-HMMER3 specializes in using Profile Hidden Markov Models (pHMMs) for analyzing protein sequences. Imagine a detective deciphering clues in a genetic code; HMMER3 does precisely that by identifying and aligning homologous sequences - sequences with a common ancestral origin. It's like finding family resemblances in DNA.
+[HMMER3](http://hmmer.org/) specializes in using Profile Hidden Markov Models (pHMMs) for analyzing protein sequences. Imagine a detective deciphering clues in a genetic code; HMMER3 does precisely that by identifying and aligning homologous sequences - sequences with a common ancestral origin. It's like finding family resemblances in DNA.
 
 ### For Technical Peep
 HMMER3's implementation of fast algorithms significantly enhances sequence database searches. Its ability to handle pHMMs efficiently makes it crucial for protein family modeling and motif identification.
 
 ## Biopython: The Swiss Army Knife of Bioinformatics
 
-Biopython is a collection of Python tools assisting biologists to manage and analyze biological data. Think of it as a versatile toolkit that simplifies tasks ranging from reading genetic sequences to performing complex calculations.
+[Biopython](https://biopython.org/) is a collection of Python tools assisting biologists to manage and analyze biological data. Think of it as a versatile toolkit that simplifies tasks ranging from reading genetic sequences to performing complex calculations.
 
 ### For Technical Peep
 It provides robust solutions for parsing bioinformatics file formats, manipulating sequences, and integrating with various databases and algorithms. Biopython's extensibility, especially in a Python environment, makes it a go-to resource for automating and streamlining bioinformatics workflows.
 
 ## CD-HIT: Decluttering Sequence Data
 
-CD-HIT serves as a powerful algorithm for clustering protein or nucleotide sequences. Imagine a librarian organizing books based on similar topics; CD-HIT organizes sequences by grouping similar ones together, significantly reducing data redundancy.
+[CD-HIT](https://sites.google.com/view/cd-hit) serves as a powerful algorithm for clustering protein or nucleotide sequences. Imagine a librarian organizing books based on similar topics; CD-HIT organizes sequences by grouping similar ones together, significantly reducing data redundancy.
 
 ### For Technical Peep
 CD-HIT's ability to process vast databases with high efficiency and minimal memory usage is particularly advantageous for managing sequence databases and facilitating comparative genomic studies.
