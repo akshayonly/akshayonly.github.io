@@ -5,7 +5,7 @@ title: Projects
 
 ### Visualising Common Enzymes Between Two Diseases Through Biomedical Bibliographic & Citation Metadata
 <br>
-On-Going..
+Paused
 {:.warning}
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/Viz-Common-Enzymes">Learn More</a> 
 
@@ -22,8 +22,6 @@ This web application presents MeSH terms from a PubMed article in a network grap
 <br>
 Completed
 {:.success}
-<a class="button button--primary button--rounded button--xs" href="https://samng.herokuapp.com/">Web Application</a> 
-<br>
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/saMNG/">Learn More</a> 
 
 ### Music Artists Compare
@@ -31,8 +29,6 @@ This web application utilizes the Spotify Web API to compare any two music artis
 <br>
 Completed
 {:.success}
-<a class="button button--primary button--rounded button--xs" href="https://artist-compare.herokuapp.com/">Web Application</a> 
-<br>
 <a class="button button--primary button--rounded button--xs" href="https://github.com/akshayonly/Artist-Compare/">Learn More</a> 
 
 ### Classifying Genetic mutation from high-dimensional clinical features
