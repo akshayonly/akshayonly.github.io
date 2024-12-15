@@ -2,6 +2,10 @@
 layout: article
 title: Publications
 ---
+## 2024
+* Anjali V. Patil, Akshay M. Shirsath, Amitesh Anand, Dioxygen reductase heterogeneity is crucial for robust aerobic growth physiology of Escherichia coli, iScience, Volume 27, Issue 12, 2024, 111498, ISSN 2589-0042, https://doi.org/10.1016/j.isci.2024.111498.
+<a class="button button--primary button--rounded button--xs" href="https://doi.org/10.1016/j.isci.2024.111498">Link</a>
+
 ## 2023
 * Goel N, Srivastav S, Patel A, Shirsath A, Panda TR, Patra M, Feist AM, Anand A. TCA cycle tailoring facilitates optimal growth of proton-pumping NADH dehydrogenase-dependent _Escherichia coli_. Microbiol Spectr. 2023 Oct 19:e0222523. doi: 10.1128/spectrum.02225-23. Epub ahead of print. PMID: 37855642.
 <a class="button button--primary button--rounded button--xs" href="https://journals.asm.org/doi/10.1128/spectrum.02225-23">Link</a>
