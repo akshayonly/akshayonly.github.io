@@ -2,6 +2,11 @@
 layout: article
 title: Publications
 ---
+
+## 2025
+* **Akshay Shirsath**, Snehal V. Khairnar, Abhirath Anand, Divya M. Prabhakaran, Amitesh Anand. Hidden Markov Model-Based Prokaryotic Genome Space Mining Reveals the Widespread Pervasiveness of Complex I and Its Potential Evolutionary Scheme, bioRxiv 2025.03.13.643058; doi: https://doi.org/10.1101/2025.03.13.643058.
+<a class="button button--primary button--rounded button--xs" href="https://www.biorxiv.org/content/10.1101/2025.03.13.643058v1">Link</a>
+
 ## 2024
 * Anjali V. Patil, **Akshay M. Shirsath**, Amitesh Anand. Dioxygen reductase heterogeneity is crucial for robust aerobic growth physiology of Escherichia coli, iScience, Volume 27, Issue 12, 2024, 111498, ISSN 2589-0042, https://doi.org/10.1016/j.isci.2024.111498.
 <a class="button button--primary button--rounded button--xs" href="https://doi.org/10.1016/j.isci.2024.111498">Link</a>
