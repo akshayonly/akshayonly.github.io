@@ -3,7 +3,7 @@ layout: article
 title: Projects
 ---
 
-### Visualising Common Enzymes Between Two Diseases Through Biomedical Bibliographic & Citation Metadata
+### Comparative Enzyme-Disease Network Analysis from PubMed Literature
 <br>
 Paused
 {:.warning}
