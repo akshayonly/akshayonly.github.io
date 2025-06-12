@@ -85,3 +85,163 @@ def get_playlist_urls(playlist_url):
 {% endhighlight %}
 
 Using ```yt-dlp```, this function pulls only the video IDs from a playlist. We then reconstruct the full video URLs for each item. It’s efficient, fast, and doesn’t download any actual video content.
+
+### Step 3: Fetch Playlist Title
+
+{% highlight python linenos %}
+def get_playlist_title(playlist_url):
+    try:
+        result = subprocess.run(
+            ['yt-dlp', '--flat-playlist', '--dump-single-json', playlist_url],
+            capture_output=True, text=True, check=True
+        )
+        return json.loads(result.stdout).get('title', 'Unknown Playlist')
+    except Exception as e:
+        print(f"Failed to fetch playlist title: {e}")
+        return "Unknown Playlist"
+{% endhighlight %}
+
+### Step 4: Parse and Clean Each Video
+
+#### Extract the Video ID
+{% highlight python linenos %}
+def extract_video_id(url):
+    match = re.search(r'(?:v=|\/)([0-9A-Za-z_-]{11})', url)
+    if not match:
+        raise ValueError(f"Invalid YouTube URL: {url}")
+    return match.group(1)
+{% endhighlight %}
+
+#### Fetch Video Title
+{% highlight python linenos %}
+def get_video_title(url):
+    try:
+        result = subprocess.run(
+            ['yt-dlp', '--skip-download', '--print-json', url],
+            capture_output=True, text=True, check=True
+        )
+        return json.loads(result.stdout).get('title', 'Unknown Title')
+    except:
+        return "Unknown Title"
+{% endhighlight %}
+
+Again, using yt-dlp, we get the title of the video — handy for labeling each transcript in the final text file.
+
+#### Clean Up Transcript Tex
+{% highlight python linenos %}
+# Clean unwanted annotations in the subtitle/transcript ([Music], [Applause], etc.)
+def clean_transcript(text):
+    return re.sub(r'\[.*?\]', '', text).replace('  ', ' ').strip()
+{% endhighlight %}
+
+Transcripts often come with [Music], [Applause], and similar tags. This function strips those out and tightens up the spacing.
+
+#### Get the Transcript
+{% highlight python linenos %}
+# Get video transcript with annotations removed
+def get_transcript_text(video_id):
+    try:
+        raw_transcript = YouTubeTranscriptApi.get_transcript(video_id)
+    except NoTranscriptFound:
+        transcripts = YouTubeTranscriptApi.list_transcripts(video_id)
+        raw_transcript = transcripts.find_transcript(
+            [t.language_code for t in transcripts]
+        ).fetch()
+    except (TranscriptsDisabled, VideoUnavailable):
+        raise RuntimeError("Transcript disabled or video unavailable.")
+
+    transcript_text = ' '.join(
+        entry['text'].strip() for entry in raw_transcript if entry['text'].strip()
+    )
+
+    return clean_transcript(transcript_text)
+{% endhighlight %}
+This is the heart of the script. We attempt to fetch the transcript using the YouTubeTranscriptApi. If the default fetch fails (say, due to language issues), we fall back to a list of available transcripts and pick one that works.
+
+It gracefully handles missing transcripts or disabled ones without crashing.
+
+#### Process a Single Video
+
+{% highlight python linenos %}
+def process_video(url):
+    try:
+        video_id = extract_video_id(url)
+        title = get_video_title(url)
+        transcript = get_transcript_text(video_id)
+        print(f"Fetched: {title}")
+        return {'video_id': video_id, 'title': title, 'transcript': transcript}
+    except Exception as e:
+        print(f"Skipped: {url} | Reason: {e}")
+        return None
+{% endhighlight %}
+This ties everything together: grab the ID, fetch the title, pull the transcript, and return the structured result. If any part fails, the video is skipped, and we log the reason.
+
+### Step 5: Main Pipeline
+{% highlight python linenos %}
+def main(playlist_url):
+    print(f"Processing playlist: {playlist_url}")
+
+    playlist_title = get_playlist_title(playlist_url)
+    video_urls = get_playlist_urls(playlist_url)
+
+    print(f"Found {len(video_urls)} videos in playlist: {playlist_title}\n")
+
+    results = []
+    for url in video_urls:
+        data = process_video(url)
+        if data:
+            data['playlist_title'] = playlist_title
+            results.append(data)
+
+    df = pd.DataFrame(results)
+    print(f"\nCompleted transcripts extraction for {len(df)} videos.")
+
+    filename = f"{playlist_title.replace(' ', '_').lower()}.txt"
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(f"Playlist Title: {playlist_title}\n\n")
+        for _, row in df.iterrows():
+            f.write(row['title'].strip() + "\n")
+            f.write(row['transcript'].strip() + "\n\n")
+
+    print(f"Transcript file saved as: {filename}")
+    return df
+{% endhighlight %}
+
+This is the high-level function that:
+
+* Reads the playlist.
+* Loops through each video.
+* Extracts transcripts.
+* Stores everything in a DataFrame.
+
+Outputs a well-structured .txt file containing every video title and its transcript.
+
+Here’s what the .txt output looks like:
+{% highlight yaml %}
+Playlist Title: Intro to AI - Stanford
+
+Lecture 1: Welcome to AI
+[Transcript content here...]
+
+Lecture 2: Search Algorithms
+[Transcript content here...]
+
+...
+{% endhighlight %}
+
+### Step 6: Run It
+{% highlight python linenos %}
+playlist_url = "https://youtube.com/playlist?list=PLzfP3sCXUnxFH6JIZqHTLfV40Ii8Heu3v&si=MYJuF889HjfgsvCJ"
+df_transcripts = main(playlist_url)
+{% endhighlight %}
+
+Just change the ```playlist_url``` to whatever playlist you want to process, and run the script. The output file will be saved in your current directory with a name based on the playlist title.
+
+## Final Thoughts
+This script saves hours of manual work and makes YouTube a more accessible source for AI-assisted research. Whether you're studying a course, summarizing long-form video content, or building a searchable transcript database — this workflow makes it dead simple.
+
+You can even extend it to:
+
+* Filter by language and translate other languages
+* Export to CSV/Markdown
+* Integrate with RAGs + LLMs (On-going... 🤓)
