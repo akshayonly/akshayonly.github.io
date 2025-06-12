@@ -1,23 +1,10 @@
 ---
 title: Unlocking YouTube Playlists - How to Get All Transcripts for NotebookLM and Beyond
 layout: article
-mode: immersive
-header:
-  theme: dark
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: /docs/assets/images/cover3.jpg
+aside:
+  toc: true
 tags: Python  YouTube  Transcript  Automation NotebookLM  GPTs
 ---
-> "Elementary, my dear Watson."
->
-> — Sherlock Holmes, The Adventures of Sherlock Holmes
-
-*****
 
 ## **Introduction**
 Ever since I started using NotebookLM, it’s completely changed how I deal with information. I’ll admit it — I’m a bit lazy when it comes to digging through dense resources. Got a research paper? I’ll let two AI bots debate it. Found an intriguing book? I just upload the PDF and chat with it. Two-hour podcast on YouTube? I’ll skim through an AI-generated summary and move on.
@@ -29,6 +16,10 @@ NotebookLM is this incredibly useful AI research and note-taking assistant that 
 But there’s one snag: NotebookLM only accepts individual YouTube video URLs. You can’t just throw in an entire playlist — which becomes a real limitation when you're working with full-length courses, lecture series, or curated educational content.
 
 ## **Solution**
+> "Elementary, my dear Watson."
+>
+> — Sherlock Holmes, The Adventures of Sherlock Holmes
+
 That’s where this automation comes in. I built a simple Python script to bridge that gap — by turning any YouTube playlist into a single, clean text file that’s ready for NotebookLM or any AI tool you prefer.
 
 ## **Tools Used**
@@ -47,3 +38,5 @@ For collecting, organizing, and optionally analyzing the transcript data, pandas
 Modules like subprocess, json, and re are used to interact with command-line tools, parse metadata, and clean up the transcript text by removing things like [Music], [Laughter], etc.
 
 These tools work together seamlessly, giving you a script that’s both robust and easy to modify if you want to extend its functionality later.
+
+*****
