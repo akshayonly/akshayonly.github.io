@@ -25,7 +25,7 @@ That’s where this automation comes in. I built a simple Python script to bridg
 ## **Tools Used**
 To make this automation both efficient and reliable, I leaned on a few powerful tools and libraries that handle the heavy lifting:
 
-1. [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+1. [```yt-dlp```](https://github.com/```yt-dlp```/```yt-dlp```)
 This is a command-line tool (and an actively maintained fork of youtube-dl) that lets you extract metadata from YouTube videos and playlists — including video IDs, titles, and more — without downloading the actual videos. It’s fast, script-friendly, and perfect for extracting structured info at scale.
 
 2. [youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api "youtube-transcript-api")
@@ -42,7 +42,7 @@ These tools work together seamlessly, giving you a script that’s both robust a
 *****
 
 ## **The Code**
-The codes automates the extraction of transcripts from an entire YouTube playlist. It works by first using yt-dlp to gather all video URLs from the playlist. Then, for each video, it fetches the transcript using youtube-transcript-api, cleans it by removing unwanted annotations, and saves the final output as a single text file — organized by video title
+The codes automates the extraction of transcripts from an entire YouTube playlist. It works by first using ```yt-dlp``` to gather all video URLs from the playlist. Then, for each video, it fetches the transcript using youtube-transcript-api, cleans it by removing unwanted annotations, and saves the final output as a single text file — organized by video title
 
 ### Step 1: Import Required Libraries
 
@@ -57,19 +57,22 @@ from youtube_transcript_api import (
 
 What we're doing here:
 
-* subprocess: to run yt-dlp commands.
-* json and re: to parse and clean data.
-* pandas: to structure and export results.
-* youtube_transcript_api: to fetch transcripts directly from YouTube.
+subprocess
+: to run ```yt-dlp``` commands.
+json and re
+: to parse and clean data.
+pandas
+: to structure and export results.
+youtube_transcript_api
+: to fetch transcripts directly from YouTube.
 
 ### Step 2: Extract All Video URLs from the Playlist
 
 {% highlight python linenos %}
-# Fetch all video URLs from a YouTube playlist
 def get_playlist_urls(playlist_url):
     try:
         result = subprocess.run(
-            ['yt-dlp', '--flat-playlist', '--dump-json', playlist_url],
+            ['```yt-dlp```', '--flat-playlist', '--dump-json', playlist_url],
             capture_output=True, text=True, check=True
         )
         return [
@@ -77,8 +80,8 @@ def get_playlist_urls(playlist_url):
             for line in result.stdout.strip().split('\n')
         ]
     except subprocess.CalledProcessError as e:
-        print("yt-dlp error:", e)
+        print("```yt-dlp``` error:", e)
         return []
 {% endhighlight %}
 
-Using yt-dlp, this function pulls only the video IDs from a playlist. We then reconstruct the full video URLs for each item. It’s efficient, fast, and doesn’t download any actual video content.
+Using ```yt-dlp```, this function pulls only the video IDs from a playlist. We then reconstruct the full video URLs for each item. It’s efficient, fast, and doesn’t download any actual video content.
