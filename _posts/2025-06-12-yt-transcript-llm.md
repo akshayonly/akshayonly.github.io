@@ -7,7 +7,7 @@ tags: Python  YouTube  Transcript  Automation NotebookLM  GPTs
 ---
 
 ## **Introduction**
-Ever since I started using NotebookLM, it’s completely changed how I deal with information. I’ll admit it — I’m a bit lazy when it comes to digging through dense resources. Got a research paper? I’ll let two AI bots debate it. Found an intriguing book? I just upload the PDF and chat with it. Two-hour podcast on YouTube? I’ll skim through an AI-generated summary and move on.
+Ever since I started using [NotebookLM](https://notebooklm.google/), it’s completely changed how I deal with information. I’ll admit it — I’m a bit lazy when it comes to digging through dense resources. Got a research paper? I’ll let two AI bots debate it. Found an intriguing book? I just upload the PDF and chat with it. Two-hour podcast on YouTube? I’ll skim through an AI-generated summary and move on.
 
 NotebookLM is this incredibly useful AI research and note-taking assistant that reshapes how you engage with content. It lets you sift through massive amounts of material, ask questions grounded in your own sources, and even discover insights you might have missed.
 
@@ -25,7 +25,7 @@ That’s where this automation comes in. I built a simple Python script to bridg
 ## **Tools Used**
 To make this automation both efficient and reliable, I leaned on a few powerful tools and libraries that handle the heavy lifting:
 
-1. yt-dlp
+1. [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 This is a command-line tool (and an actively maintained fork of youtube-dl) that lets you extract metadata from YouTube videos and playlists — including video IDs, titles, and more — without downloading the actual videos. It’s fast, script-friendly, and perfect for extracting structured info at scale.
 
 2. [youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api "youtube-transcript-api")
@@ -40,3 +40,45 @@ Modules like subprocess, json, and re are used to interact with command-line too
 These tools work together seamlessly, giving you a script that’s both robust and easy to modify if you want to extend its functionality later.
 
 *****
+
+## **The Code**
+The codes automates the extraction of transcripts from an entire YouTube playlist. It works by first using yt-dlp to gather all video URLs from the playlist. Then, for each video, it fetches the transcript using youtube-transcript-api, cleans it by removing unwanted annotations, and saves the final output as a single text file — organized by video title
+
+### Step 1: Import Required Libraries
+
+{% highlight python linenos %}
+import subprocess, json, re
+import pandas as pd
+from youtube_transcript_api import (
+    YouTubeTranscriptApi, TranscriptsDisabled,
+    NoTranscriptFound, VideoUnavailable
+)
+{% endhighlight %}
+
+What we're doing here:
+
+* subprocess: to run yt-dlp commands.
+* json and re: to parse and clean data.
+* pandas: to structure and export results.
+* youtube_transcript_api: to fetch transcripts directly from YouTube.
+
+### Step 2: Extract All Video URLs from the Playlist
+
+{% highlight python linenos %}
+# Fetch all video URLs from a YouTube playlist
+def get_playlist_urls(playlist_url):
+    try:
+        result = subprocess.run(
+            ['yt-dlp', '--flat-playlist', '--dump-json', playlist_url],
+            capture_output=True, text=True, check=True
+        )
+        return [
+            f"https://www.youtube.com/watch?v={json.loads(line)['id']}"
+            for line in result.stdout.strip().split('\n')
+        ]
+    except subprocess.CalledProcessError as e:
+        print("yt-dlp error:", e)
+        return []
+{% endhighlight %}
+
+Using yt-dlp, this function pulls only the video IDs from a playlist. We then reconstruct the full video URLs for each item. It’s efficient, fast, and doesn’t download any actual video content.
