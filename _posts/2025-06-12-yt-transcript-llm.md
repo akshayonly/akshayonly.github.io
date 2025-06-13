@@ -128,7 +128,7 @@ def get_video_title(url):
 
 Again, using ```yt-dlp```, we get the title of the video — handy for labeling each transcript in the final text file.
 
-#### Clean Up Transcript Tex
+#### Clean Up Transcript Text
 {% highlight python linenos %}
 # Clean unwanted annotations in the subtitle/transcript ([Music], [Applause], etc.)
 def clean_transcript(text):
