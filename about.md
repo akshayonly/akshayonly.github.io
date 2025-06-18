@@ -26,13 +26,7 @@ titles:
 key: page-about
 ---
 
-
-- 🧬 I specialize in **comparative genomics**, **structural bioinformatics**, and **machine learning applications in biology**.
-- 🔍 I'm passionate about **decoding biological complexity** through data-driven approaches and building **scalable bioinformatics workflows**.
-- 🧠 My interests span **multi-omics integration**, **functional genomics**, and **single-cell transcriptomics**.
-- 🚀 I'm looking to **collaborate on projects at the intersection of genomics and machine learning** — from predictive modeling to functional data analysis.
-- 📝 I've co-authored **peer-reviewed publications** and have hands-on experience with **genome analysis, protein structure modeling**, and **pipeline development**.
-- 🌱 Currently sharpening my expertise in **Nextflow, single-cell data analysis, and cloud-based bioinformatics**.
+Hi, I'm Akshay — a bioinformatician passionate about exploring biology through code, data, and structure. I work at the intersection of protein modeling, comparative genomics, and machine learning, turning complex biological questions into computational solutions. Whether it's decoding microbial evolution or building tools to visualize biological networks, I enjoy combining biology and tech to make sense of life's blueprint. This space is where I share my work, side projects, and thoughts on bioinformatics, research, and beyond.
 
 ---
 
