@@ -4,7 +4,7 @@ title: Publications
 ---
 
 ## 2025
-* **Akshay Shirsath**, Snehal V Khairnar, Abhirath Anand, Divya M Prabhakaran, Amitesh Anand, Hidden Markov Model-Based Prokaryotic Genome Space Mining Reveals the Widespread Pervasiveness of Complex I and Its Potential Evolutionary Scheme, Genome Biology and Evolution, 2025;, evaf154, https://doi.org/10.1093/gbe/evaf154
+* **Akshay Shirsath**, Snehal V Khairnar, Abhirath Anand, Divya M Prabhakaran, Amitesh Anand, Hidden Markov Model-Based Prokaryotic Genome Space Mining Reveals the Widespread Pervasiveness of Complex I and Its Potential Evolutionary Scheme, Genome Biology and Evolution, 2025;
 <a class="button button--primary button--rounded button--xs" href="https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evaf154/8223451">Link</a>
 
 ## 2024
@@ -22,4 +22,5 @@ title: Publications
 ## 2020
 * Meshram RJ, **Shirsath A**, Aouti S, Bagul K, Gacche RN. Molecular modeling and simulation study of homoserine kinase as an effective leishmanial drug target. J Mol Model. 2020 Jul 28;26(8):218. doi: 10.1007/s00894-020-04473-7. PMID: 32720228.
 <a class="button button--primary button--rounded button--xs" href="https://link.springer.com/article/10.1007/s00894-020-04473-7">Link</a> 
+
 
