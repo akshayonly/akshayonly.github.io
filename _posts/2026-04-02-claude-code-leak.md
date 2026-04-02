@@ -1,9 +1,9 @@
 ---
-title: The $380 Billion Leak: How Anthropic Accidentally Proved Its AI is Just a Giant Prompt Sandwich
 layout: article
-mode: immersive
+title: The $380 Billion Leak - How Anthropic Accidentally Proved Its AI is Just a Giant Prompt Sandwich
 header:
   theme: dark
+  background: '#333'
 article_header:
   type: cover
   image:
