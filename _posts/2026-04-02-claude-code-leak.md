@@ -7,7 +7,7 @@ header:
 article_header:
   type: cover
   image:
-    src: assets/Post-04-Imgs/post_04_img.jpeg
+    src: assets/Post-04-Imgs/post_04_img.jpg
 tags: claude-code  anthropic  coding-assistant  npm
 ---
 
