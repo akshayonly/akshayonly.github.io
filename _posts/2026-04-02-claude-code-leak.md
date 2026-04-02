@@ -1,14 +1,14 @@
 ---
 layout: article
 title: The $380 Billion Leak: How Anthropic Accidentally Proved Its AI is Just a Giant 'Prompt Sandwich'
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: assets/Post-04-Imgs/post_04_img.jpeg
 tags: claude  coding-assistant  anthropic  npm
+header:
+  theme: dark
+  background: '#333'
+article_header:
+  type: cover
+  image:
+    src: assets/Post-04-Imgs/post_04_img.jpeg
 ---
 
 Anthropic, the self-appointed high priest of AI safety and a fierce advocate for the "closed-source" moat, recently pulled back its own curtain in the most humiliating way possible. At 4:00 a.m. on the eve of April Fool’s Day, a mundane packaging error on an npm registry exposed the flagship Claude Code source code to the world—not through a sophisticated state-sponsored hack, but via a forgotten source map file. This "curtain-pulling" moment has done more than leak IP; it has exposed the yawning chasm between Silicon Valley’s "alien intelligence" marketing and the mechanical reality of a product held together by hard-coded scripts and desperate human interventions.
